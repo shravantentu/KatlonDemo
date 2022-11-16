@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit" time="28.526" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuit" tests="2" failures="0" errors="0" time="28.526" skipped="0" timestamp="2022-11-17 02:53:20" hostname="Irisf - 192.168.0.105" id="Test Suites/TestSuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Irisf\\git\\KatlonDemo\\Reports\\20221117_025311\\TestSuit\\20221117_025311"/>
+         <property name="logFiles" value="C:\\Users\\Irisf\\git\\KatlonDemo\\Reports\\20221117_025311\\TestSuit\\20221117_025311\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irisf - 192.168.0.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="5bee4834a151c682074cad15bf18da03"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AddItamtoAccount" time="17.435" classname="Test Cases/AddItamtoAccount" status="PASSED">
+         <system-out><![CDATA[2022-11-17 02:53:21 - [TEST_CASE][PASSED] - Test Cases/AddItamtoAccount: Test Cases/AddItamtoAccount
+
+2022-11-17 02:53:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-17 02:53:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-17 02:53:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-17 02:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-17 02:53:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-11-17 02:53:28 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-11-17 02:53:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-17 02:53:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-17 02:53:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-11-17 02:53:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-11-17 02:53:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-11-17 02:53:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-11-17 02:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-11-17 02:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-11-17 02:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-11-17 02:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-11-17 02:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+2022-11-17 02:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+2022-11-17 02:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Remove")): Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2022-11-17 02:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2022-11-17 02:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-11-17 02:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-11-17 02:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "shravan"): Text 'shravan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-11-17 02:53:34 - [MESSAGE][PASSED] - Text 'shravan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-11-17 02:53:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "tentu"): Text 'tentu' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-11-17 02:53:35 - [MESSAGE][PASSED] - Text 'tentu' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-11-17 02:53:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "5678"): Text '5678' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-11-17 02:53:36 - [MESSAGE][PASSED] - Text '5678' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-11-17 02:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-11-17 02:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-11-17 02:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-11-17 02:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-11-17 02:53:37 - [TEST_STEP][PASSED] - verifyTextPresent("THANK YOU FOR YOUR ORDER", false): Text 'THANK YOU FOR YOUR ORDER' is present on page 
+
+2022-11-17 02:53:37 - [MESSAGE][PASSED] - Text 'THANK YOU FOR YOUR ORDER' is present on page 
+
+2022-11-17 02:53:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-17 02:53:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItamtoAccount" time="10.776" classname="Test Cases/AddItamtoAccount" status="PASSED">
+         <system-out><![CDATA[2022-11-17 02:53:38 - [TEST_CASE][PASSED] - Test Cases/AddItamtoAccount: Test Cases/AddItamtoAccount
+
+2022-11-17 02:53:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-17 02:53:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-17 02:53:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-17 02:53:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-17 02:53:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-11-17 02:53:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-11-17 02:53:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-17 02:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-17 02:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-11-17 02:53:41 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-11-17 02:53:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-11-17 02:53:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-11-17 02:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-11-17 02:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-11-17 02:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-11-17 02:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-11-17 02:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_1")): Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+2022-11-17 02:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+2022-11-17 02:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Remove")): Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2022-11-17 02:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2022-11-17 02:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-11-17 02:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-11-17 02:53:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "shravan"): Text 'shravan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-11-17 02:53:45 - [MESSAGE][PASSED] - Text 'shravan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-11-17 02:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "tentu"): Text 'tentu' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-11-17 02:53:46 - [MESSAGE][PASSED] - Text 'tentu' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-11-17 02:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "5678"): Text '5678' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-11-17 02:53:47 - [MESSAGE][PASSED] - Text '5678' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-11-17 02:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-11-17 02:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-11-17 02:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-11-17 02:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2022-11-17 02:53:48 - [TEST_STEP][PASSED] - verifyTextPresent("THANK YOU FOR YOUR ORDER", false): Text 'THANK YOU FOR YOUR ORDER' is present on page 
+
+2022-11-17 02:53:48 - [MESSAGE][PASSED] - Text 'THANK YOU FOR YOUR ORDER' is present on page 
+
+2022-11-17 02:53:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-17 02:53:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-17 02:53:20 - [TEST_SUITE][PASSED] - TestSuit: Test Cases/AddItamtoAccount]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
