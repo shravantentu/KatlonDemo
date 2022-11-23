@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "977F74B5356BB1F29C2B4CBB9B375FAD",
+  "keywordClasses": [
+    {
+      "name": "login.LoginWithCredentails",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

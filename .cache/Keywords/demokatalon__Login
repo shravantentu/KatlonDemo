@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "DAD1911D0B57A5E0F50F4016F1353EB6",
+  "keywordClasses": [
+    {
+      "name": "demokatalon.Login",
+      "keywordMethods": [
+        {
+          "name": "loginwithCredentials",
+          "parameters": [
+            {
+              "name": "userName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "Password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

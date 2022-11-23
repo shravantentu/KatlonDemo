@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SmokeSuit,,,,2022-11-23 12:32:28,2022-11-23 12:32:37,9.397s,FAILED
+,,,,,,,
+Test Cases/AddItamtoAccount,,,,2022-11-23 12:32:28,2022-11-23 12:32:34,6.309s,FAILED
+"openBrowser("""")",,,,2022-11-23 12:32:28,2022-11-23 12:32:34,5.942s,FAILED
+,,,,,,,
+Test Cases/PlaceOrder,,,,2022-11-23 12:32:35,2022-11-23 12:32:37,2.471s,FAILED
+"openBrowser("""")",,,,2022-11-23 12:32:35,2022-11-23 12:32:37,2.099s,FAILED
+,,,,,,,
+Test Cases/test2,,,,2022-11-23 12:32:37,2022-11-23 12:32:37,0.217s,PASSED
+return null,,,,2022-11-23 12:32:37,2022-11-23 12:32:37,0.001s,PASSED

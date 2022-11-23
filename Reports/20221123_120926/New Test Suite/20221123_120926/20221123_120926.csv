@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 107.0.0.0,,,2022-11-23 12:09:37,2022-11-23 12:09:54,17.206s,PASSED
+,,,,,,,
+Test Cases/AddItamtoAccount,Chrome 107.0.0.0,,,2022-11-23 12:09:38,2022-11-23 12:09:54,16.450s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-23 12:09:38,2022-11-23 12:09:43,4.369s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 107.0.0.0,,,2022-11-23 12:09:43,2022-11-23 12:09:43,0.707s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 12:09:43,2022-11-23 12:09:44,0.408s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 107.0.0.0,,,2022-11-23 12:09:44,2022-11-23 12:09:45,1.297s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 107.0.0.0,,,2022-11-23 12:09:45,2022-11-23 12:09:46,0.564s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 107.0.0.0,,,2022-11-23 12:09:46,2022-11-23 12:09:46,0.588s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart""))",Chrome 107.0.0.0,,,2022-11-23 12:09:46,2022-11-23 12:09:47,0.398s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_1""))",Chrome 107.0.0.0,,,2022-11-23 12:09:47,2022-11-23 12:09:47,0.611s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Remove""))",Chrome 107.0.0.0,,,2022-11-23 12:09:47,2022-11-23 12:09:48,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Checkout""))",Chrome 107.0.0.0,,,2022-11-23 12:09:48,2022-11-23 12:09:48,0.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName""), ""shravan"")",Chrome 107.0.0.0,,,2022-11-23 12:09:48,2022-11-23 12:09:49,0.988s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName""), ""tentu"")",Chrome 107.0.0.0,,,2022-11-23 12:09:49,2022-11-23 12:09:50,0.861s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""5678"")",Chrome 107.0.0.0,,,2022-11-23 12:09:50,2022-11-23 12:09:51,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Cancel_continue""))",Chrome 107.0.0.0,,,2022-11-23 12:09:51,2022-11-23 12:09:52,0.694s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Finish""))",Chrome 107.0.0.0,,,2022-11-23 12:09:52,2022-11-23 12:09:53,0.684s,PASSED
+"verifyTextPresent(""THANK YOU FOR YOUR ORDER"", false)",Chrome 107.0.0.0,,,2022-11-23 12:09:53,2022-11-23 12:09:53,0.502s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-23 12:09:53,2022-11-23 12:09:54,0.897s,PASSED
+,,,,,,,
+Test Cases/test,Chrome 107.0.0.0,,,2022-11-23 12:09:54,2022-11-23 12:09:54,0.321s,PASSED
+return null,Chrome 107.0.0.0,,,2022-11-23 12:09:54,2022-11-23 12:09:54,0.001s,PASSED
