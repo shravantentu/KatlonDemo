@@ -23,7 +23,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Login {
-	@Keyword 
+	@Keyword
 	public void loginwithCredentials(String userName, String Password) {
 		WebUI.openBrowser('')
 
@@ -36,4 +36,13 @@ public class Login {
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'),
 				Password)
 	}
+	
+	
+	@Keyword
+	public void CloseBrowser() {
+		
+		WebUI.closeBrowser()
+		
+	}
+	
 }

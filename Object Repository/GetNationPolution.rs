@@ -45,6 +45,16 @@ def variable = variables.get('yourVariableName')
 WS.verifyElementPropertyValue(response, '[0].country', '')
 
 
-assertThat(response.getResponseText()).contains('https://www.upes.ac.in')</verificationScript>
+assertThat(response.getResponseText()).contains('https://www.upes.ac.in')
+
+
+
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+def variables = request.getVariables()
+def variable = variables.get('')
+WS.verifyElementPropertyValue(response, '[0].web_pages', 'https://www.upes.ac.in/')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

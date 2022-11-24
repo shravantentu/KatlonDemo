@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DAD1911D0B57A5E0F50F4016F1353EB6",
+  "keywordFileContentHash": "FF729D751CC3810DDA446AF6E541B663",
   "keywordClasses": [
     {
       "name": "demokatalon.Login",
@@ -34,6 +34,11 @@
               }
             }
           ],
+          "javadoc": ""
+        },
+        {
+          "name": "CloseBrowser",
+          "parameters": [],
           "javadoc": ""
         }
       ]

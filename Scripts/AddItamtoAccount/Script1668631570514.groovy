@@ -10,51 +10,37 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.common.WebUICommonScripts
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
-import com.kms.katalon.core.webui.constants.WebUICommonScriptConstants
-import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
-import com.kms.katalon.core.webui.contribution.WebUiKeywordContributor
-import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.common.WebUICommonScripts as WebUICommonScripts
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import com.kms.katalon.core.webui.constants.WebUICommonScriptConstants as WebUICommonScriptConstants
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner as WebUiDriverCleaner
+import com.kms.katalon.core.webui.contribution.WebUiKeywordContributor as WebUiKeywordContributor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
-import com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
+import com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain as WebUIKeywordMain
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-import javassist.compiler.KeywordTable
-
-import org.openqa.selenium.By
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
+import internal.GlobalVariable as GlobalVariable
+import javassist.compiler.KeywordTable as KeywordTable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebDriver as Keys
 
 CustomKeywords.'demokatalon.Login.loginwithCredentials'(GlobalVariable.UserName, GlobalVariable.Password)
 
-
-//WebUI
-
-
-//WebUIAbstractKeyword
-
-//WebUiCommonHelper
-
+//WebUI.
+//WebUIAbstractKeyword.
+//WebUiCommonHelper.
 //WebUICommonScripts.
-
 //WebUIKeywordMain
-
-//KeywordUtil
-
-
-
-WebDriver driver=DriverFactory.getWebDriver()
+//KeywordUtil.
+WebDriver driver = DriverFactory.getWebDriver()
 
 //driver.findElement(By.ByXPath(""));
-
-
-
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
@@ -75,15 +61,14 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_contin
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Finish'))
 
-WebUI.verifyTextPresent("THANK YOU FOR YOUR ORDER", false)
+if(WebUI.verifyTextPresent('THANK YOU FOR YOUR ORDER', false)) {
+	KeywordUtil.markPassed("THANK YOU FOR YOUR ORDER text present")
+}else{
+	KeywordUtil.markFailed("THANK YOU FOR YOUR ORDER text present")
+}
+	
+WebUI.callTestCase(findTestCase('APi'), [('password') : GlobalVariable.Password, ('userName') : GlobalVariable.UserName], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
-
-
- 
-
-
-
-
-//(findTestObject('Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER'))
+CustomKeywords.'demokatalon.Login.CloseBrowser'()
 
